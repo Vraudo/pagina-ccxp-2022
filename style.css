@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: #FFD900;
+}
+
+#logoccxp{
+    margin-top: 27px;
+    margin-left: 58px;
+    margin-bottom: 27px;
+}
+
+#part_two{
+    display: flex;
+    
+}
+
+#epic{
+    color: #FFD900;
+    line-height: 85.07px;
+    font-weight: 700;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#dataText{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 3rem;
+}
+#text01{
+    width: 678px;
+    font-size: 27px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+#text_part{
+    background-color: #514988;
+    color: #ffff;
+    width:802px;
+    height: 610px;
+}
+
+
+.count-down{
+    color: #514988;
+    font-size: 55px;
+   margin-top: 15px;
+    display: grid;
+    grid-auto-flow: column;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#legend-count-down{
+    color: #E33881;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 36px;
+    display: flex;
+    justify-content: flex-start;
+   margin-left: 2rem;
+}
+
+#harleyqueen{
+    display: flex;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+#footer-frase{
+    color: #FFD900;
+    font-weight: 600;
+    font-size: 27px;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 3rem;
+
+}
+
+
+#botao{
+    color: white;
+    font-size: 42px;
+    font-weight: 600;
+    background-color: #514988;
+    width: 500px;
+    height: 130px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#botao:hover{
+    color: #FFD900;
+}
+
+
