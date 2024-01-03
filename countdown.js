@@ -28,3 +28,31 @@ function formatotempo( tempo ){
 
 countdown();
 setInterval(countdown, 1000)
+
+// proximo comando
+
+const ingressos = [];
+
+function addRedBorder(id){
+    element = document.querySelector("#" + id)
+    element.style.border = "5px solid blue";    
+}
+
+
+function highlightCard(selector){
+    var element = document.querySelector(selector);
+    element.classList.toggle('card-highlight');
+}
+
+function selectCard(selector){
+    var element = document.querySelector(selector);
+    element.classList.toggle("card-selected");
+    if(ingressos.includes(selector)) ingressos.pop(selector);
+    else ingressos.push(selector)
+}
+
+ showSelectedCards = () =>
+{
+    if(ingressos.length > 0) alert("Ingressos selecionados" + ingressos);
+
+}

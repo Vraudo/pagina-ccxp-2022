@@ -5,6 +5,7 @@
 
 header{
     background-color: #FFD900;
+   
 }
 
 #logoccxp{
@@ -15,7 +16,7 @@ header{
 
 #part_two{
     display: flex;
-    
+
 }
 
 #epic{
@@ -42,16 +43,20 @@ header{
     display: flex;
     text-align: center;
     justify-content: center;
-    margin-left: 2rem;
+    
 }
 
 #text_part{
     background-color: #514988;
     color: #ffff;
     width:802px;
-    height: 610px;
+    height: 650px;
 }
 
+#part_three{
+   
+    width: 100%
+}
 
 .count-down{
     color: #514988;
@@ -65,17 +70,17 @@ header{
 
 #legend-count-down{
     color: #E33881;
+    display: flex;
+    justify-content: space-evenly;
     font-weight: 700;
     font-size: 23px;
     line-height: 36px;
-    display: flex;
-    justify-content: flex-start;
    margin-left: 2rem;
 }
 
 #harleyqueen{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-left: 1rem;
 }
 
@@ -106,10 +111,30 @@ footer{
     width: 500px;
     height: 130px;
     border-radius: 20px;
+    border-style: none;
     cursor: pointer;
 }
 #botao:hover{
     color: #FFD900;
 }
+.card-highlight{
+    box-shadow: 5px 5px grey;
+}
 
+.card-selected{
+      border: 7px solid yellow;  
+}
+input{
+    background-color: #514988;
+    border-radius: 10px;
+    color: #ffff;
+    border: 0pt;
+    margin: 30px;
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
+}
+#form{
+    background-color: #FFD900;
+}
 

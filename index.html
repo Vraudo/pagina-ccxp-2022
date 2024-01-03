@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CCXP_2022</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -30,7 +30,7 @@
         <div>
             
           </div>
-        <div>
+        <div id="part_three">
          <div class="count-down">
             <div>
                 <h1  class="count-down"id="dias">00D</h1>
@@ -50,21 +50,29 @@
             <h3>PARA A MAIOR CCXP DE TODOS OS TEMPOS</h3>
          </div>
          <div id="harleyqueen">
-            <video width = "750px" height="450" controls loop><source src="Arlequina.mp4" type="video/mp4"></video>
+            <video width = "850x"  controls loop><source src="Arlequina.mp4" type="video/mp4"></video>
             </div>
            </div>
         </div>
         <div><h1 id="footer-frase">AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h1></div> 
         <footer>
             <div>
-                <img src="quinta.svg" alt="">  <img src="sexta.svg" alt=""> 
-                <img src="esgotado.svg" alt=""> <img src="domingo.svg" alt="">
+                 <img onclick="selectCard('#quintaf')" onmouseover="highlightCard('#quintaf')" onmouseout="highlightCard('#quintaf')" id="quintaf" src="quinta.svg" alt=""> 
+                 <img onclick="selectCard('#sextaf')" onmouseover="highlightCard('#sextaf')" onmouseout="highlightCard('#sextaf')" id="sextaf" src="sexta.svg" alt=""> 
+                 <img onclick="selectCard('#sabadof')" onmouseover="highlightCard('#sabadof')" onmouseout="highlightCard('#sabadof')" id="sabadof" src="esgotado.svg" alt="">
+                 <img onclick="selectCard('#domingof')" onmouseover="highlightCard('#domingof')" onmouseout="highlightCard('#domingof')" id="domingof" src="domingo.svg" alt="">
             </div>
             <div>
-                <button id="botao">GARANTA O SEU!</button>
+                <button onclick="showSelectedCards()" id="botao">GARANTA O SEU!</button>
             </div>
         </footer>
+        <div id="form">
+            <form action="https://www.google.com">
+                <input type="email" placeholder=" Email" required>
+                <input type="submit">
+            </form>
+        </div>
+       
         <script src="countdown.js"></script>
-        <p>teste</p>
 </body>
 </html>
